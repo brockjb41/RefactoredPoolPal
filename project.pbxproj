@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA093A6420DD6979005719BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A6320DD6979005719BA /* AppDelegate.swift */; };
+		BA093A6B20DD697A005719BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA093A6A20DD697A005719BA /* Assets.xcassets */; };
+		BA093A6E20DD697A005719BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA093A6C20DD697A005719BA /* LaunchScreen.storyboard */; };
+		BA093A7A20DD69C3005719BA /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA093A7920DD69C3005719BA /* CloudKit.framework */; };
+		BA093A7C20DD6AD7005719BA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A7B20DD6AD7005719BA /* User.swift */; };
+		BA093A7E20DD6AE1005719BA /* Pool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A7D20DD6AE1005719BA /* Pool.swift */; };
+		BA093A8220DD6AF7005719BA /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A8120DD6AF7005719BA /* UserController.swift */; };
+		BA093A8420DD6AFE005719BA /* PoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A8320DD6AFE005719BA /* PoolController.swift */; };
+		BA093A8620DD6B33005719BA /* CKController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A8520DD6B33005719BA /* CKController.swift */; };
+		BA093A8820DD6B45005719BA /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A8720DD6B45005719BA /* CustomCollectionViewCell.swift */; };
+		BA093A8A20DD6B56005719BA /* SquaresCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A8920DD6B56005719BA /* SquaresCollectionViewController.swift */; };
+		BA093A8C20DD6B61005719BA /* BracketCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A8B20DD6B61005719BA /* BracketCollectionViewController.swift */; };
+		BA093A8E20DD6B6F005719BA /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A8D20DD6B6F005719BA /* LoadingViewController.swift */; };
+		BA093A9020DD6B81005719BA /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A8F20DD6B81005719BA /* signUpViewController.swift */; };
+		BA093A9220DD6B97005719BA /* PoolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A9120DD6B97005719BA /* PoolsTableViewController.swift */; };
+		BA093A9420DD6BAE005719BA /* PoolStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A9320DD6BAE005719BA /* PoolStyleViewController.swift */; };
+		BA093A9620DD6BBA005719BA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A9520DD6BBA005719BA /* Extensions.swift */; };
+		BA093A9820DD6E6F005719BA /* StraightBetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093A9720DD6E6F005719BA /* StraightBetViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA093A6020DD6979005719BA /* RefactoredPoolPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefactoredPoolPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA093A6320DD6979005719BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA093A6A20DD697A005719BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA093A6D20DD697A005719BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA093A6F20DD697A005719BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA093A7520DD6983005719BA /* RefactoredPoolPal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RefactoredPoolPal.entitlements; sourceTree = "<group>"; };
+		BA093A7920DD69C3005719BA /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		BA093A7B20DD6AD7005719BA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BA093A7D20DD6AE1005719BA /* Pool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pool.swift; sourceTree = "<group>"; };
+		BA093A8120DD6AF7005719BA /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		BA093A8320DD6AFE005719BA /* PoolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolController.swift; sourceTree = "<group>"; };
+		BA093A8520DD6B33005719BA /* CKController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKController.swift; sourceTree = "<group>"; };
+		BA093A8720DD6B45005719BA /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		BA093A8920DD6B56005719BA /* SquaresCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresCollectionViewController.swift; sourceTree = "<group>"; };
+		BA093A8B20DD6B61005719BA /* BracketCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BracketCollectionViewController.swift; sourceTree = "<group>"; };
+		BA093A8D20DD6B6F005719BA /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		BA093A8F20DD6B81005719BA /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		BA093A9120DD6B97005719BA /* PoolsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolsTableViewController.swift; sourceTree = "<group>"; };
+		BA093A9320DD6BAE005719BA /* PoolStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolStyleViewController.swift; sourceTree = "<group>"; };
+		BA093A9520DD6BBA005719BA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BA093A9720DD6E6F005719BA /* StraightBetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StraightBetViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA093A5D20DD6979005719BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA093A7A20DD69C3005719BA /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA093A5720DD6979005719BA = {
+			isa = PBXGroup;
+			children = (
+				BA093A6220DD6979005719BA /* RefactoredPoolPal */,
+				BA093A6120DD6979005719BA /* Products */,
+				BA093A7620DD6985005719BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA093A6120DD6979005719BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA093A6020DD6979005719BA /* RefactoredPoolPal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA093A6220DD6979005719BA /* RefactoredPoolPal */ = {
+			isa = PBXGroup;
+			children = (
+				BA093A7520DD6983005719BA /* RefactoredPoolPal.entitlements */,
+				BA093A6320DD6979005719BA /* AppDelegate.swift */,
+				BA093A9920DD9BB7005719BA /* Models */,
+				BA093A9A20DD9BC3005719BA /* Model Controllers */,
+				BA093A9B20DD9BE6005719BA /* View Controllers */,
+				BA093A9C20DD9BF2005719BA /* Special Controllers */,
+				BA093A9D20DD9BFC005719BA /* Extensions */,
+				BA093A6A20DD697A005719BA /* Assets.xcassets */,
+				BA093A6C20DD697A005719BA /* LaunchScreen.storyboard */,
+				BA093A6F20DD697A005719BA /* Info.plist */,
+			);
+			path = RefactoredPoolPal;
+			sourceTree = "<group>";
+		};
+		BA093A7620DD6985005719BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA093A7920DD69C3005719BA /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA093A9920DD9BB7005719BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA093A7B20DD6AD7005719BA /* User.swift */,
+				BA093A7D20DD6AE1005719BA /* Pool.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA093A9A20DD9BC3005719BA /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA093A8120DD6AF7005719BA /* UserController.swift */,
+				BA093A8320DD6AFE005719BA /* PoolController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		BA093A9B20DD9BE6005719BA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA093A8D20DD6B6F005719BA /* LoadingViewController.swift */,
+				BA093A8F20DD6B81005719BA /* signUpViewController.swift */,
+				BA093A9120DD6B97005719BA /* PoolsTableViewController.swift */,
+				BA093A9320DD6BAE005719BA /* PoolStyleViewController.swift */,
+				BA093A9720DD6E6F005719BA /* StraightBetViewController.swift */,
+				BA093A8720DD6B45005719BA /* CustomCollectionViewCell.swift */,
+				BA093A8920DD6B56005719BA /* SquaresCollectionViewController.swift */,
+				BA093A8B20DD6B61005719BA /* BracketCollectionViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BA093A9C20DD9BF2005719BA /* Special Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA093A8520DD6B33005719BA /* CKController.swift */,
+			);
+			path = "Special Controllers";
+			sourceTree = "<group>";
+		};
+		BA093A9D20DD9BFC005719BA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA093A9520DD6BBA005719BA /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA093A5F20DD6979005719BA /* RefactoredPoolPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA093A7220DD697A005719BA /* Build configuration list for PBXNativeTarget "RefactoredPoolPal" */;
+			buildPhases = (
+				BA093A5C20DD6979005719BA /* Sources */,
+				BA093A5D20DD6979005719BA /* Frameworks */,
+				BA093A5E20DD6979005719BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RefactoredPoolPal;
+			productName = RefactoredPoolPal;
+			productReference = BA093A6020DD6979005719BA /* RefactoredPoolPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA093A5820DD6979005719BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Brock Boyington";
+				TargetAttributes = {
+					BA093A5F20DD6979005719BA = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BA093A5B20DD6979005719BA /* Build configuration list for PBXProject "RefactoredPoolPal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA093A5720DD6979005719BA;
+			productRefGroup = BA093A6120DD6979005719BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA093A5F20DD6979005719BA /* RefactoredPoolPal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA093A5E20DD6979005719BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA093A6E20DD697A005719BA /* LaunchScreen.storyboard in Resources */,
+				BA093A6B20DD697A005719BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA093A5C20DD6979005719BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA093A8220DD6AF7005719BA /* UserController.swift in Sources */,
+				BA093A9220DD6B97005719BA /* PoolsTableViewController.swift in Sources */,
+				BA093A8820DD6B45005719BA /* CustomCollectionViewCell.swift in Sources */,
+				BA093A6420DD6979005719BA /* AppDelegate.swift in Sources */,
+				BA093A9420DD6BAE005719BA /* PoolStyleViewController.swift in Sources */,
+				BA093A7C20DD6AD7005719BA /* User.swift in Sources */,
+				BA093A9020DD6B81005719BA /* signUpViewController.swift in Sources */,
+				BA093A8A20DD6B56005719BA /* SquaresCollectionViewController.swift in Sources */,
+				BA093A7E20DD6AE1005719BA /* Pool.swift in Sources */,
+				BA093A9820DD6E6F005719BA /* StraightBetViewController.swift in Sources */,
+				BA093A9620DD6BBA005719BA /* Extensions.swift in Sources */,
+				BA093A8420DD6AFE005719BA /* PoolController.swift in Sources */,
+				BA093A8620DD6B33005719BA /* CKController.swift in Sources */,
+				BA093A8C20DD6B61005719BA /* BracketCollectionViewController.swift in Sources */,
+				BA093A8E20DD6B6F005719BA /* LoadingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA093A6C20DD697A005719BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA093A6D20DD697A005719BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA093A7020DD697A005719BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA093A7120DD697A005719BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA093A7320DD697A005719BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RefactoredPoolPal/RefactoredPoolPal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HSBGDDNL2A;
+				INFOPLIST_FILE = RefactoredPoolPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrockBoyington.RefactoredPoolPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA093A7420DD697A005719BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RefactoredPoolPal/RefactoredPoolPal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HSBGDDNL2A;
+				INFOPLIST_FILE = RefactoredPoolPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrockBoyington.RefactoredPoolPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA093A5B20DD6979005719BA /* Build configuration list for PBXProject "RefactoredPoolPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA093A7020DD697A005719BA /* Debug */,
+				BA093A7120DD697A005719BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA093A7220DD697A005719BA /* Build configuration list for PBXNativeTarget "RefactoredPoolPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA093A7320DD697A005719BA /* Debug */,
+				BA093A7420DD697A005719BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA093A5820DD6979005719BA /* Project object */;
+}
